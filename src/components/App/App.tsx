@@ -7,7 +7,7 @@ import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import MovieModal from "../MovieModal/MovieModal";
 import type { Movie } from "../../types/movie.ts";
-import { fetchMovies } from "../../services/movieServise.ts";
+import { fetchMovies } from "../../services/movieService.ts";
 
 export default function App() {
   const [movies, setMovies] = useState<Movie[]>([]);
